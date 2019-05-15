@@ -19,22 +19,22 @@ namespace Principal
 
         private void avisoRojo_Click(object sender, EventArgs e)
         {
-            nuevoAvisoColor(DEFAULT_TXT + " ROJO", Color.Coral);
+            NotificarAvisoColor(DEFAULT_TXT + " ROJO", Color.Coral);
         }
 
         private void avisoVERDE_Click(object sender, EventArgs e)
         {
-            nuevoAvisoColor(DEFAULT_TXT + " VERDE", Color.LightGreen);
+            NotificarAvisoColor(DEFAULT_TXT + " VERDE", Color.LightGreen);
         }
 
         private void avisoAMARILLO_Click(object sender, EventArgs e)
         {
-            nuevoAvisoColor(DEFAULT_TXT + " AMARILLO", Color.LightYellow);
+            NotificarAvisoColor(DEFAULT_TXT + " AMARILLO", Color.LightYellow);
         }
 
         private void avisoNORMAL_Click(object sender, EventArgs e)
         {
-            nuevoAvisoColor(DEFAULT_TXT + " GRIS", Color.LightGray);
+            NotificarAvisoColor(DEFAULT_TXT + " GRIS", Color.LightGray);
         }
     }
 }

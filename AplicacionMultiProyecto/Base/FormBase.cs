@@ -22,32 +22,7 @@ namespace Base
         }
 
 
-        protected void nuevoAvisoRojo(string texto)
-        {
-            labelAvisos.Text = texto;
-            labelAvisos.BackColor = Color.Red;
-        }
-
-        protected void nuevoAvisoVerde(string texto)
-        {
-            labelAvisos.Text = texto;
-            labelAvisos.BackColor = Color.Green;
-        }
-
-        protected void nuevoAvisoAmarillo(string texto)
-        {
-            labelAvisos.Text = texto;
-            labelAvisos.BackColor = Color.Yellow;
-        }
-
-        protected void nuevoAvisoNormal(string texto)
-        {
-            labelAvisos.Text = texto;
-            labelAvisos.BackColor = Control.DefaultBackColor;
-        }
-
-
-        protected void nuevoAvisoColor(string texto, Color pColor)
+        protected void NotificarAvisoColor(string texto, Color pColor)
         {
             labelAvisos.Text = texto;
             labelAvisos.BackColor = pColor;
