@@ -80,7 +80,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AplicacionMultiProyecto\Base.csproj">
+    <ProjectReference Include="..\Base\Base.csproj">
       <Project>{776c8406-7c42-446c-bbd4-2a206ac0adbd}</Project>
       <Name>Base</Name>
     </ProjectReference>
