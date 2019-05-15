@@ -46,7 +46,10 @@
             // 
             // labelAvisos
             // 
+            this.labelAvisos.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.labelAvisos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labelAvisos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelAvisos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.labelAvisos.Location = new System.Drawing.Point(0, 0);
             this.labelAvisos.Name = "labelAvisos";
             this.labelAvisos.Size = new System.Drawing.Size(784, 50);
@@ -56,6 +59,7 @@
             // 
             // btSalir
             // 
+            this.btSalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSalir.Location = new System.Drawing.Point(672, 12);
             this.btSalir.Name = "btSalir";
