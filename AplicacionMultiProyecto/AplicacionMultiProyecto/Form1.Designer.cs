@@ -1,4 +1,4 @@
-﻿namespace AplicacionMultiProyecto
+﻿namespace Base
 {
     partial class FormBase
     {
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panelAvisos = new System.Windows.Forms.Panel();
+            this.labelAvisos = new System.Windows.Forms.Label();
             this.btSalir = new System.Windows.Forms.Button();
             this.btInfo = new System.Windows.Forms.Button();
-            this.labelAvisos = new System.Windows.Forms.Label();
             this.panelAvisos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +43,16 @@
             this.panelAvisos.Name = "panelAvisos";
             this.panelAvisos.Size = new System.Drawing.Size(784, 50);
             this.panelAvisos.TabIndex = 0;
+            // 
+            // labelAvisos
+            // 
+            this.labelAvisos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelAvisos.Location = new System.Drawing.Point(0, 0);
+            this.labelAvisos.Name = "labelAvisos";
+            this.labelAvisos.Size = new System.Drawing.Size(784, 50);
+            this.labelAvisos.TabIndex = 3;
+            this.labelAvisos.Text = "INFO";
+            this.labelAvisos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btSalir
             // 
@@ -66,16 +76,6 @@
             this.btInfo.UseVisualStyleBackColor = true;
             this.btInfo.Click += new System.EventHandler(this.btInfo_Click);
             // 
-            // labelAvisos
-            // 
-            this.labelAvisos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelAvisos.Location = new System.Drawing.Point(0, 0);
-            this.labelAvisos.Name = "labelAvisos";
-            this.labelAvisos.Size = new System.Drawing.Size(784, 50);
-            this.labelAvisos.TabIndex = 3;
-            this.labelAvisos.Text = "INFO";
-            this.labelAvisos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // FormBase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -95,8 +95,8 @@
 
         protected System.Windows.Forms.Panel panelAvisos;
         protected System.Windows.Forms.Button btSalir;
-        protected System.Windows.Forms.Button btInfo;
         protected System.Windows.Forms.Label labelAvisos;
+        protected System.Windows.Forms.Button btInfo;
     }
 }
 

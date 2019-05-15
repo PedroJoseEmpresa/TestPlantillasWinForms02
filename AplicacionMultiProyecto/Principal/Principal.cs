@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Base;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,23 +9,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Base
+namespace Principal
 {
-    public partial class FormBase : Form
+    public partial class Principal : FormBase
     {
-        public FormBase()
+        public Principal()
         {
             InitializeComponent();
         }
 
-        private void btSalir_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btInfo_Click(object sender, EventArgs e)
         {
-            labelAvisos.Text = " FORM BASE --> boton info";
+            labelAvisos.Text = "FORMULARIO PRINCIPAL: Boton info sobreescrito";
         }
     }
 }
